@@ -1,0 +1,55 @@
+{
+  "name": "beedeez-dev-front-exercise",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-native start",
+    "lint": "eslint .",
+    "web": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/native-stack": "^6.7.0",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^1.0.0",
+    "react": "17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native": "0.65.1",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-reanimated": "^2.13.0",
+    "react-native-safe-area-context": "3.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-native-web": "^0.17.1",
+    "react-redux": "^8.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.7.4",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/react": "^18.0.15",
+    "@types/react-native": "^0.69.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-native-codegen": "0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
