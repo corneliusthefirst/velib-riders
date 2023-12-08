@@ -9,8 +9,8 @@ export const STATIONS_STATIONS_QUEUE_NAME = 'Stations';
 export const STATION_PROCESS_STATUS_JOB_NAME = 'ProcessAndPersisteStationStatus';
 export const STATION_PROCESS_INFOS_JOB_NAME = 'ProcessAndPersisteStationInfos';
 
-const endPointStationStatus = 'https://velib-metropole-opendata.smoove.pro/opendata/Velib_Metropole/station_status.json';
-const endPointStationInfos = 'https://velib-metropole-opendata.smoove.pro/opendata/Velib_Metropole/station_information.json';
+const endPointStationStatus = 'https://velib-metropole-opendata.smovengo.cloud/opendata/Velib_Metropole/station_status.json';
+const endPointStationInfos = 'https://velib-metropole-opendata.smovengo.cloud/opendata/Velib_Metropole/station_information.json';
 
 export const persisteStationStatus = (station: Station) => {
   return from(

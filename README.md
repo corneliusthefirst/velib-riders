@@ -28,7 +28,7 @@ In order to run the project, there is a couple of technologies you need to insta
 - Create a `.env.development.local` file to be used by the docker both mongo and redis with this content
   `REDIS_URL=redis://redis:6379`
   `DB_HOST=mongo`
-- Run the backend `docker compose up -d`
+- Run the backend `docker compose up -d` . Wait some minute for docker to complete server launch with stations seeding
 
 - Start frontend :
 - Install pakages `npm install` or `yarn i` then run `npm run web` or `yarn web`
