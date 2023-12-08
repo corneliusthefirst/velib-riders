@@ -32,6 +32,13 @@ In order to run the project, there is a couple of technologies you need to insta
 
 - Start frontend :
 - Install pakages `npm install` or `yarn i` then run `npm run web` or `yarn web`
+  
+  ## Screenshots
+
+![Login](screenshots/login.png)
+![Sigup](screenshots/signup.png)
+![Home](screenshots/home.png)
+
 
 **Everything should now run smoothly, you are all set !**
 
