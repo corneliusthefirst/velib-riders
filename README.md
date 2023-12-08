@@ -24,9 +24,14 @@ In order to run the project, there is a couple of technologies you need to insta
 
 ### How to run the Project ?
 
-- Install both `front/` and `back/` packages using ➝ `npm install` or `yarn i`
-- Start back `npm run dev` or `yarn dev`
-- Start front `npm run web` or `yarn web`
+- Start the backend:
+- Create a `.env.development.local` file to be used by the docker both mongo and redis with this content
+  `REDIS_URL=redis://redis:6379`
+  `DB_HOST=mongo`
+- Run the backend `docker compose up -d`
+
+- Start frontend :
+- Install pakages `npm install` or `yarn i` then run `npm run web` or `yarn web`
 
 **Everything should now run smoothly, you are all set !**
 
@@ -66,4 +71,4 @@ Your goal will be to **discover the architecture**, **implement the front-end**,
 
 ---
 
-### All **informations** about this exercise should have been provided in this **README**, but if you have any questions, feel free to contact us!
+### All **informations** about this exercise should have been provided in this **README**, but if you have any questions, feel free to contact us
