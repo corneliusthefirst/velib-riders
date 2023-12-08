@@ -1,5 +1,6 @@
 import {LinearGradient} from 'expo-linear-gradient';
 import {extendTheme} from 'native-base';
+import {Colors} from './colors';
 
 const customTheme = extendTheme({
   colors: {
@@ -33,4 +34,16 @@ const themeConfig = {
   },
 };
 
-export {customTheme, themeConfig};
+const navigationTheme = {
+  dark: true,
+  colors: {
+    primary: Colors.blackOpacity,
+    background: Colors.blackOpacity,
+    card: Colors.blackOpacity,
+    text: Colors.blackOpacity,
+    border: Colors.blackOpacity,
+    notification: Colors.blackOpacity,
+  },
+};
+
+export {customTheme, themeConfig, navigationTheme};

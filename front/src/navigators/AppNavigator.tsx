@@ -8,6 +8,7 @@ import {View, StyleSheet, ActivityIndicator} from 'react-native';
 import {Colors} from '../constants/colors';
 import CustomImageBackground from '../components/CustomImageBackground';
 import backgroundImage from '../assets/images/app-background.png';
+import {navigationTheme} from '../constants/theme';
 
 const Login = lazy(() => import('../screens/Login'));
 const Signup = lazy(() => import('../screens/Signup'));
@@ -55,7 +56,11 @@ interface NavigationProps
 
 export const AppNavigator = (props: NavigationProps) => {
   return (
-    <NavigationContainer ref={navigationRef} linking={linking} {...props}>
+    <NavigationContainer
+      ref={navigationRef}
+      linking={linking}
+      theme={navigationTheme}
+      {...props}>
       <AppStack />
     </NavigationContainer>
   );
